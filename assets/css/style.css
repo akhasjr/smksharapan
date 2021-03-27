@@ -1,0 +1,586 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
+  /* text-align: center; */
+  color: #3b3b3b;
+}
+
+.wrapper {
+  /* padding: 80px 0 100px 0; */
+  padding: 60px 0 60px 0;
+}
+
+
+/* ==================================== */
+/*              TYPOGRAPHY              */
+/* ==================================== */
+h1, h2, h3, h4, h5, h6 {
+  color: #282642;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.dots {
+  background-image: url(../img/dots-bg.svg);
+  width: 37px;
+  height: 37px;
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -15px;
+}
+
+.header-section .title {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.desc {
+  font-size: 18px;
+  color: #A1A1A1;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+
+
+/* ===== Custom Button ===== */
+.custom-btn-primary {
+  border-radius: 50px;
+  background-color: #21C7FF;
+  border: 2px solid #21C7FF;
+  color: white;
+  font-weight: 600;
+  box-shadow: 0px 18px 30px rgba(33, 199, 255, 0.3);
+  transition: .3s;
+  padding: 10px 40px;
+}
+
+.custom-btn-primary:hover {
+  color: white;
+  background-color: #1abaf0;
+  border-color: #1abaf0;
+}
+
+.custom-btn-secondary {
+  border-radius: 50px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: white;
+  font-weight: 600;
+  box-shadow: 0px 18px 30px rgba(33, 199, 255, 0.3);
+  transition: .3s;
+  padding: 6px 36px;
+}
+
+.custom-btn-secondary:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #1abaf0;
+}
+
+.custom-btn-outline-primary {
+  border-radius: 50px;
+  background-color: white;
+  color: #21C7FF;
+  font-weight: 600;
+  border: 2px solid #21C7FF;
+  transition: .3s;
+  padding: 10px 40px;
+}
+
+.custom-btn-outline-primary:hover {
+  color: white;
+  background-color: #21C7FF;
+  border: 2px solid #21C7FF;
+}
+/* ===== End Custom Button ===== */
+
+
+
+/* ======= Navbar ======= */
+.navbar {
+  border-bottom: 1px solid #f5f5f5;
+  box-shadow: 0 0 10px rgb(0 0 0 / 5%);
+}
+
+.bg-custom {
+  background-color: #fff;
+}
+
+.nav-logo {
+  font-size: 32px;
+  color: #21C7FF;
+  /* color: #68e1fd; */
+  letter-spacing: -2px;
+  font-weight: 600;
+  
+}
+
+.nav-logo:hover {
+  color: #21C7FF;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-nav {
+  font-weight: 600;
+}
+
+.nav-item a:hover {
+  color: #21C7FF !important;
+}
+
+.nav-item .active {
+  background: none;
+  color: #21C7FF !important;
+}
+
+.dropdown-menu a:hover {
+  background: none;
+}
+/* ===== End of Navbar ===== */
+
+
+
+/* ======= Jumbotron ======= */
+.jumb-info h1 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 45px;
+  color: #212529;
+}
+
+.jumb-info p {
+  color: #A1A1A1;
+  font-weight: 500;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+.jumb-hero img {
+ width: 100%;
+ transition: all .3s;
+}
+
+.jumb-hero img:hover {
+  transform: scale(1.04);
+}
+/* ==== End of Jumbotron ==== */
+
+
+
+/* Info */
+.info {
+  border-radius: 20px;
+  background-color: #21C7FF;
+  box-shadow: 0px 18px 28px rgba(33, 199, 255, 0.4);
+}
+
+.logo h1 {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+.logo p, .section p {
+  font-size: 18px;
+  margin-top: -10px;
+  color: #fff;
+}
+
+.icon h3 {
+  color: #fff;
+  font-weight: 600;
+}
+
+.icon p {
+  color: #fff;
+}
+
+.icon i {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+/* End of Info */
+
+
+
+/* Jurusan & Kompetensi */
+.jurusan .card {
+  transition: all .3s;
+  border-radius: 10px;
+  /* border: none; */
+}
+
+.jurusan .card:hover {
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.bg-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #21C7FF;
+}
+
+.bg-icon .fa {
+  font-size: 32px;
+  color: #fff;
+}
+
+/* End of Jurusan & Kompetensi */
+
+
+
+
+/* Article */
+.article-desc h1 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 45px;
+  color: #212529;
+}
+
+.article-desc p {
+  color: #A1A1A1;
+  font-weight: 500;
+  line-height: 25px;
+  font-size: 18px;
+}
+/* End of Article */
+
+
+
+
+/* ===== Subscribe ===== */
+.bg-color {
+  background-color: #21C7FF;
+}
+
+.subscribe-info img {
+  height: 10rem;
+  width: auto;
+}
+
+.subscribe-info {
+  border-radius: 20px;
+  box-shadow: 0px 18px 28px rgba(33, 199, 255, 0.4);
+}
+
+.subscribe-info h1 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.subscribe-info p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.subscribe-info input {
+  border-radius: 20px;
+  max-width: 500px;
+}
+
+.subscribe-info .custom-btn-secondary {
+  margin-top: 15px !important;
+}
+/* ===== End Subscribe ===== */
+
+
+
+/* ========= News ========== */
+.date {
+  color: #A1A1A1;
+}
+
+.news-date {
+  height: 16px;
+  margin-right: 5px;
+}
+
+.news-link {
+  height: 20px;
+  color: #1abaf0;
+}
+
+.line {
+  background-color: #212529
+}
+
+.news-info {
+  color: #A1A1A1;
+}
+
+.other-news a {
+  color: #21C7FF;
+  font-weight: 600;
+}
+
+.other-news a:hover {
+  color: #1abaf0;
+  text-decoration: underline;
+}
+
+
+
+
+/* ======= ARTIKEL ====== */
+.artikel-item a {
+  color: #282642;
+  transition: all .3s;
+}
+
+.artikel-item a:hover {
+  /* color: #21C7FF; */
+  color: #A1A1A1;
+}
+
+.artikel-date {
+  height: 16px;
+  margin-right: 5px;
+}
+
+.artikel-info {
+  color: #A1A1A1;
+}
+
+/* === END OF ARTIKEL === */
+
+
+
+
+
+
+
+
+
+
+/* ===== Contact ===== */
+/* #contact {
+  padding-top: 60px;
+  padding-bottom: 30px;
+} */
+
+.contact p {
+  color: #A0A0A0;
+}
+
+.about i {
+  color: #21C7FF;
+  margin-right: 10px;
+}
+
+.social-icon li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icon {
+  margin-top: 20px;
+}
+
+.social-icon a {
+  text-decoration: none;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #e2e2e2;
+  box-shadow: inset -1px -1px 2px rgba(0, 0, 0, 0.2),
+              2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+.social-icon a:hover {
+  color: #999;
+  transform: translateY(-10px);
+}
+
+.social-icon a::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  background-color: #21C7FF;
+}
+
+.social-icon a .fab {
+  position: relative;
+  color: #fff;
+}
+/* End of Contact */
+
+
+
+
+
+/* ======== FOOTER ======= */
+.footer-logo, h6 a {
+  color: #21C7FF !important;
+}
+
+/* ===== END OF FOOTER ==== */
+
+
+
+
+
+/* =========================== */
+/*         Sambutan.html       */
+/* =========================== */
+.fa-quote-left {
+  font-size: 32px;
+  margin-right: 15px;
+  color: #21C7FF;
+}
+
+.isi p {
+  text-align: justify;
+}
+
+.img-profil img {
+  width: 100%;
+  transition: all .3s;
+}
+
+.img-profil img {
+  width: 100%;
+  transition: all .3s;
+}
+
+.img-profil img:hover {
+  transform: scale(1.04);
+}
+
+
+
+/* =========================== */
+/*          Berita.html        */
+/* =========================== */
+.page-item.active .page-link {
+  background-color: #21C7FF !important;
+  border-color: #1abaf0;
+}
+
+.page-link {
+  color: #1abaf0;
+}
+
+
+
+/* =========================== */
+/*        Organisasi.html      */
+/* =========================== */
+.organisasi-item .card {
+  transition: all .3s;
+  border-radius: 10px;
+}
+
+.organisasi-item .card:hover {
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+/* =========================== */
+/*        Galeri.html      */
+/* =========================== */
+.galeri-group img {
+  width: 100%;
+  transition: all .3s;
+}
+
+.galeri-group img:hover {
+  transform: scale(1.04);
+}
+
+
+
+
+/* ===== Media Queries ===== */
+@media (max-width: 992px) {
+  .tab-center {
+    text-align: center;
+  }
+
+  .mb-tab {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .jumb-info h1 {
+    line-height: 38px;
+    margin-bottom: 15px;
+    font-size: 30px;
+  }
+
+  .jumb-info p {
+    margin-bottom: 25px;
+  }
+
+  .subscribe-info h1 {
+    font-size: 30px;
+  }
+
+  .subscribe-info img {
+    height: 7rem;
+    width: auto;
+  }
+
+  .mobile-center {
+    text-align: center;
+  }
+
+  .mb-mobile {
+    margin-bottom: 40px;
+  }
+
+  .social-icon li {
+    margin: 0 5px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .mobile-center {
+    text-align: center;
+  }
+
+  .mb-mobile {
+    margin-bottom: 40px;
+  }
+}
+/* ===== End Media Queries ===== */
